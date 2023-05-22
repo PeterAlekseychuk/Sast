@@ -13,6 +13,6 @@ function f($arg) {
 }
 
 $pvo = 'f';
-// False negative
+// False negative1
 // Analyzers that do not interprete the execution flow based on functional data flows will not report a vulnerability
 $pvo($parm1);
